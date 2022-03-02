@@ -939,7 +939,7 @@ declare namespace PptxGenJS {
 		 */
 		tooltip?: string
 	}
-	export interface PlaceholderProps {
+	export interface PlaceholderProps extends ImageProps, TextPropsOptions {
 		name: string
 		type: PLACEHOLDER_TYPE
 		x: Coord
